@@ -15,19 +15,21 @@ Este proyecto consiste en aplicar lo aprendido de Web Scraping, Base de Datos y 
 
 Usando Selenium, se solicita interactuar con la página web [Portal Inmobiliario](https://www.portalinmobiliario.com/) para seleccionar las opciones de búsqueda de inmuebles, según los valores de las variables definidas. Se solicita utilizar diferentes tipos de selectores para encontrar elementos y hacer clics o introducir texto. 
 
-En la página inicial: 
-- Filtrar según botón de tipo contrato.
-- Filtrar según botón de tipo inmueble.
-- Filtrar según botón de comuna de búsqueda.
-- Elegir la primera sugerencia de búsqueda.
-- Hacer clic en botón BUSCAR.
+- En la página inicial: 
+    - Filtrar según botón de tipo contrato.
+    - Filtrar según botón de tipo inmueble.
+    - Filtrar según botón de comuna de búsqueda.
+    - Elegir la primera sugerencia de búsqueda.
+    - Hacer clic en botón BUSCAR.
 
 
 En la página de resultados: 
-- Filtrar por monto mínimo y máximo.
-- Recorrer la cantidad de páginas realizando lo siguiente: 
-    - Extraer el título.
-    - Extraer la unidad monetaria ($ o UF).
-    - Extraer el precio.
-    - Extraer el link del anuncio.
-    - Crear un dataframe con estos resultados.
+    - Filtrar por monto mínimo y máximo.
+    - Recorrer la cantidad de páginas realizando lo siguiente: 
+        - Extraer el título.
+        - Extraer la unidad monetaria ($ o UF).
+        - Extraer el precio.
+        - Extraer el link del anuncio.
+        - Crear un dataframe con estos resultados. 
+
+- Para cada inmueble, se debe navegar a su enlace específico y extraer información adicional como la dirección completa. Luego se debe añadir esta información al dataframe existente.
