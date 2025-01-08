@@ -5,11 +5,11 @@
 
 <img src="./assets/banner-scrapping.png"/>
 
-## Proyecto Final - Web Scraping - Base de Datos - APIs
+## 🏠 Proyecto Final - Web Scraping - Base de Datos - APIs
 
 Este proyecto consiste en aplicar lo aprendido de Web Scraping, Base de Datos y APIs. Para esto, se desarrolló un producto de consulta de inmuebles con sus comercios cercanos. 
 
-## Descripción 
+## 🚀 Descripción 
 
 ### **PARTE 1** 
 
@@ -48,4 +48,13 @@ En la página de resultados:
 - Utilizando la librería sqlite, crear una base de datos, definir su esquema y relaciones entre tablas. Posteriormente se debe guardar los 2 dataframes creados (el de inmuebles y el de lugares cercanos) en esta Base de Datos.
 - Realizar consultas SQL para responder las siguientes preguntas:
     - ¿Cuál es el valor promedio de los 20 arriendos de dpto más baratos de “x comuna”?
-    - ¿Cuál es la mediana de comentarios (user_ratinngs_total), de aquellos lugares cercanos, que tienen una valoración igual o superior a 4 estrellas y que corresponden a los 15 departamentos más baratos de “x comuna”?
+    - ¿Cuál es la mediana de comentarios (user_ratings_total), de aquellos lugares cercanos, que tienen una valoración igual o superior a 4 estrellas y que corresponden a los 15 departamentos más baratos de “x comuna”?
+
+
+## ⚙️ Tecnologías y Paquetes Utilizados
+- **Python 3.10.16:** Lenguaje base para la implementación.
+- **Selenium:** Automatización de la interacción con sitios web.
+- **Pandas:** Manipulación de datos y almacenamiento en CSV.
+- **webdriver-manager:** Descarga y actualización automática de drivers para Selenium.
+- **os:** Manipulación de rutas y verificación de archivos.
+- **re:** Normalización de direcciones con expresiones regulares.
