@@ -51,10 +51,35 @@ En la página de resultados:
     - ¿Cuál es la mediana de comentarios (user_ratings_total), de aquellos lugares cercanos, que tienen una valoración igual o superior a 4 estrellas y que corresponden a los 15 departamentos más baratos de “x comuna”?
 
 
-## ⚙️ Tecnologías y Paquetes Utilizados
+## ⚙️ Lenguaje, Tecnologías y Paquetes Utilizados
 - **Python 3.10.16:** Lenguaje base para la implementación.
-- **Selenium:** Automatización de la interacción con sitios web.
-- **Pandas:** Manipulación de datos y almacenamiento en CSV.
+- **selenium:** Automatización de la interacción con sitios web.
+- **pandas:** Manipulación de datos y almacenamiento en CSV.
 - **webdriver-manager:** Descarga y actualización automática de drivers para Selenium.
 - **os:** Manipulación de rutas y verificación de archivos.
 - **re:** Normalización de direcciones con expresiones regulares.
+- **sqlite3**: Manejo de bases de datos SQLite para almacenar datos temporalmente.
+- **dotenv**: Manejo seguro de variables de entorno, como la clave de la API de Google
+- **time**: Medición y control de tiempos en el scraping y consultas a las APIs.
+- **requests**: Realización de solicitudes HTTP para consultar las APIs de Google. 
+
+### 💻 Herramientas Externas 
+- **Google Geocoding API**: Para obtener coordenadas exactas (`latitud`, `longitud`) y el `place_id` de la dirección normalizada.
+- **Google Places API**: Para consultar lugares cercanos según un radio y rubro definidos.
+
+### 🖱️ Navegador
+- **Mozilla Firefox**: Utilizado con Selenium para la interacción con la página web.
+
+
+## 📌Instalación
+
+### Requisitos Previos
+- Tener Python 3.10.16+ instalado.
+- Contar con una clave de API de Google habilitada para las APIs **Geocoding** y **Places**.
+
+### Configuración
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/usuario/repo-web-scraping.git
+   cd repo-web-scraping
