@@ -81,5 +81,8 @@ En la página de resultados:
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/repo-web-scraping.git
-   cd repo-web-scraping
+   git clone https://github.com/Vikktor93/webscraping-api-bd-project
+   cd webscraping-api-bd-project
+
+## 🔒 Licencia
+Este proyecto está bajo la licencia MIT.
